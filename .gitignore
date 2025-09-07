@@ -1,11 +1,7 @@
 # Don't ignore the debug/ and release/ subfolders
-!win_c/build/debug/
-!win_c/build/release/
-!unix_c/build/debug/
-!unix_c/build/release/
+!c/build/debug/
+!c/build/release/
 
 # But ignore everything inside debug/ and release/
-win_c/build/debug/**
-win_c/build/release/**
-unix_c/build/debug/**
-unix_c/build/release/**
+c/build/debug/**
+c/build/release/**
