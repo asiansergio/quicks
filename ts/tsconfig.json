@@ -12,8 +12,6 @@
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "noPropertyAccessFromIndexSignature": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
         "strict": true,
         "useUnknownInCatchVariables": true,
         "noUncheckedSideEffectImports": true,
