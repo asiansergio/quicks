@@ -1,7 +1,6 @@
-# Don't ignore the debug/ and release/ subfolders
-!c/build/debug/
-!c/build/release/
+c/build
+c/build
 
-# But ignore everything inside debug/ and release/
-c/build/debug/**
-c/build/release/**
+ts/dist
+ts/types
+ts/node_modules
