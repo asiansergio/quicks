@@ -1,7 +1,7 @@
 #include "syl.h"
 
 int
-main(int argc, char **argv)
+main(int Argc, char **Argv)
 {
 
     return 0;
