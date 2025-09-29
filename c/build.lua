@@ -17,13 +17,15 @@ function escape_path(path)
   end
 end
 
-function path_exists(path)
-  local ok, err = os.rename(path, path)
-  if ok then
-    return true
-  else
-    return false, err
+function path_exists(file)
+  local ok, err, code = os.rename(file, file)
+  if not ok then
+    if code == 13 then
+      -- Permission denied, but it exists
+      return true
+    end
   end
+  return ok, err
 end
 
 function create_dir(path)
