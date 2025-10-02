@@ -79,8 +79,8 @@ function find_source_files()
 end
 
 function get_compiler()
-  local cl_check = is_windows() and os.execute("cl >nul 2>&1") == 0
-  local gcc_check = os.execute("gcc --version >nul 2>&1") == 0
+  local cl_check = is_windows() and os.execute("cl >nul 2>&1")
+  local gcc_check = os.execute("gcc --version >nul 2>&1")
 
   if cl_check then
     return "cl"
