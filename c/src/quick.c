@@ -7,8 +7,7 @@
 
 #include "syl.h"
 
-int
-main(int Argc, char **Argv)
+int main(int argc, char **argv)
 {
 
     return 0;
